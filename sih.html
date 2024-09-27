@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sih.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <h2 class="chat-history-title">My Chat History</h2>
+    <div class="message-wrap">
+        <div class="msg-wrap">
+        <!-- Date Separator -->
+            <div class="msg-date">
+                <strong>Today</strong>
+            </div>
+
+        <!-- First Message -->
+            <div class="media msg">
+                <a class="pull-left" href="#">
+                      <img class="media-object img-circle" style="width: 40px; height: 40px;" src="https://bootdey.com/img/Content/user_2.jpg" alt="User Avatar">
+                </a>
+                <div class="media-body">
+                <small class="time"><i class="fas fa-clock"></i> 12:10 AM</small>
+                <h5 class="media-heading">Pauline Mothg</h5>
+                <small class="text-muted">Interdum et malesuada fames ac ante ipsum primis in faucibus. In at lacus ac velit vehicula elementum at a lorem. Nullam quis augue sodales, porttitor orci non.</small>
+                </div>
+            </div>
+
+        <!-- Date Separator -->
+            <div class="msg-date">
+                <strong>Yesterday</strong>
+            </div>
+
+        <!-- Second Message -->
+            <div class="media msg">
+                <a class="pull-left" href="#">
+                <img class="media-object img-circle" style="width: 40px; height: 40px;" src="https://bootdey.com/img/Content/user_2.jpg" alt="User Avatar">
+                </a>
+                <div class="media-body">
+                <small class="time"><i class="fas fa-clock"></i> 12:10 AM</small>
+                <h5 class="media-heading">Pauline Mothg</h5>
+                <small class="text-muted">Consectetur dui. Quisque lacinia vitae lectus placerat dictum. Integer tristique sem a risus egestas, ac accumsan ligula volutpat. Donec at convallis elit.</small>
+                </div>
+            </div>
+
+        <!-- Date Separator -->
+            <div class="msg-date">
+            <strong>Previous 7 days</strong>
+            </div>
+
+        <!-- Third Message -->
+            <div class="media msg">
+                <a class="pull-left" href="#">
+                <img class="media-object img-circle" style="width: 40px; height: 40px;" src="https://bootdey.com/img/Content/user_2.jpg" alt="User Avatar">
+                </a>
+                <div class="media-body">
+                <small class="time"><i class="fas fa-clock"></i> 12:10 AM</small>
+                <h5 class="media-heading">Pauline Mothg</h5>
+                <small class="text-muted">Cras commodo ante sit amet nulla porta, sed feugiat lectus accumsan. Maecenas luctus est sed dignissim mattis. Mauris ullamcorper hendrerit est in pharetra.</small>
+                </div>
+            </div>
+
+        <!-- Date Separator -->
+            <div class="msg-date">
+                <strong>Previous 30 days</strong>
+            </div>
+
+        <!-- Fourth Message -->
+            <div class="media msg">
+                <a class="pull-left" href="#">
+                <img class="media-object img-circle" style="width: 40px; height: 40px;" src="https://bootdey.com/img/Content/user_2.jpg" alt="User Avatar">
+                </a>
+                <div class="media-body">
+                <small class="time"><i class="fas fa-clock"></i> 12:10 AM</small>
+                <h5 class="media-heading">Pauline Mothg</h5>
+                <small class="text-muted">Cras commodo ante sit amet nulla porta, sed feugiat lectus accumsan. Maecenas luctus est sed dignissim mattis. Mauris ullamcorper hendrerit est in pharetra.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--Avatar-->
+    <div class="upload-container">
+        <div class="d-flex flex-column row-align-items-center mb-4">
+            <i class="ri-upload-cloud-fill ri-10x text-primary"></i>
+            <p class="upload-title">Upload Documents</p>
+            <p class="text-muted">Accepted formats: PDF, DOCX, TXT</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-start w-100 mt-3">
+            <div class="text mx-3">
+                <i class="ri-file-text-fill ri-3x"></i>
+                <p>AADHAR CARD</p>
+            </div>
+            <div class="text mx-3">
+                <i class="ri-file-text-fill ri-3x"></i>
+                <p>PAN CARD</p>
+            </div>
+            <div class="text mx-3">
+                <i class="ri-file-text-fill ri-3x"></i>
+                <p>RATION CARD</p>
+            </div>
+            <!-- <div class="text mx-3">
+                <i class="ri-file-text-fill ri-3x"></i>
+                <p>PASSPORT</p>
+            </div> -->
+            <div class="text mx-3">
+                <i class="ri-file-text-fill ri-3x"></i>
+                <p>DISABLED CERTIFICATE</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center"> 
+        <div class="card p-4"> 
+            <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+                <button class="btn btn-secondary">
+                    <img src="https://bootdey.com/img/Content/user_2.jpg" height="100" width="100">
+                     
+                    </button>
+                    <span class="name mt-3">Eleanor Pena</span> 
+                    <span class="idd">@eleanorpena</span> 
+                    <div class="d-flex flex-row justify-content-center align-items-center gap-2"> 
+                        <span class="idd1">Oxc4c16a645_b21a</span> 
+                        <span><i class="fa fa-copy"></i></span> 
+                    </div>
+                    <div class="d-flex mt-2"> 
+                        <button class="btn1 btn-dark">Edit Profile</button> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-start align-items-start mt-3 w-100">
+                        <div class="about-me" style="text-align: left;"> 
+                            <p>About me</p>
+                            <div>
+                                <i class="ri-user-fill"></i>
+                                Name: Eleanor Pena
+                            </div>
+                            <div>
+                                <i class="ri-mail-line"></i>
+                                Email : abc@gmail.com
+                            </div>
+                            <div>
+                                <i class="ri-phone-fill"></i>
+                                Phone : 123-456-7890
+                            </div>
+                            <div>
+                                <i class="ri-calendar-2-line"></i>
+                                DoB : 27-02-2001
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+
+                    <div class="text mt-3"> 
+                        <span>Eleanor Pena is a creator of minimalistic x bold graphics and digital artwork.<br><br> Artist/ Creative Director by Day #NFT minting@ with FND night.</span> 
+                    </div> 
+                    <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center"> 
+                        <span><i class="fa fa-twitter"></i></span> 
+                        <span><i class="fa fa-facebook-f"></i></span> 
+                        <span><i class="fa fa-instagram"></i></span> 
+                        <span><i class="fa fa-linkedin"></i></span> 
+                    </div> 
+                    <div class="px-2 rounded mt-4 date "> 
+                        <span class="join">Joined May, 2021</span> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+        <div class="faq_area section_padding_130" id="faq">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-8 col-lg-6">
+                        <!-- Section Heading-->
+                        <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s">
+                            <h3><span>Frequently</span> Asked Questions</h3>
+                            <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                            <div class="line"></div>
+                        </div>
+                        <!-- Icon Set-->
+                        <div class="text-center mt-3">
+                            <span>
+                                <i class="ri-video-on-fill ri-2x"></i>
+                                <i class="ri-phone-fill ri-2x"></i>
+                                <i class="ri-file-upload-fill ri-2x"></i>
+                                <i class="ri-git-repository-private-fill ri-2x"></i>
+                                <i class="ri-file-list-3-line ri-2x"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- FAQ Area-->
+                    <div class="col-12 col-sm-10 col-lg-8">
+                        <div class="accordion faq-accordian" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        What is this app for?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>This app provides AI-powered chat services to assist with a variety of tasks, from customer service inquiries to personal assistance. It uses advanced natural language processing to understand and respond to user requests in a conversational manner.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Is this app free to use?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>The app offers both free and premium options. You can use the basic features for free, but for advanced functionalities and additional customization, there is a premium subscription available.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        How do I reset my passwords?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>To reset your password, go to the login page and click on the "Forgot Password" link. You will be prompted to enter your registered email address. A password reset link will be sent to your email, which you can use to create a new password. If you face any issues, feel free to contact our support team for assistance.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Can I use the app offline?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>The app primarily relies on internet connectivity to provide AI-driven chat interactions. While some basic features may be accessible offline, the full functionality, including real-time AI responses, requires an active internet connection.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Is my data secure?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>Yes, your data is securely encrypted and protected with industry-standard security measures. We prioritize your privacy and ensure that all sensitive information is handled with care, adhering to strict data protection protocols.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Support Button-->
+                        <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <i class="lni-emoji-sad"></i>
+                            <p class="mb-0 px-2">Can't find your answers?</p>
+                            <a href="#">Contact us</a>
+                        </div>
+        
+                        <div class="d-flex align-items-center justify-content-around w-100 mt-3">
+                            <div class="text-center mx-3">
+                                <i class="ri-video-on-fill ri-3x"></i>
+                                <p>Video Demonstration</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="ri-phone-fill ri-3x"></i>
+                                <p>Call Services Desk</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="ri-file-upload-fill ri-3x"></i>
+                                <p>File Upload</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="ri-git-repository-private-fill ri-3x"></i>
+                                <p>Password and Security</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="ri-file-list-3-line ri-3x"></i>
+                                <p>User Manual</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    
+        <!-- Bootstrap JS and Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            function displaySelectedImage(event, elementId) {
+            const selectedImage = document.getElementById(elementId);
+            const fileInput = event.target;
+
+           if (fileInput.files && fileInput.files[0]) {
+           const reader = new FileReader();
+ 
+            reader.onload = function(e) {
+            selectedImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(fileInput.files[0]);
+        }
+        }
+        </script>
+</body>
+</html>

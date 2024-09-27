@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f5f5f5;
+    height: 100vh; /* Full height */
+    margin: 0; /* Remove default margin */
+}
+.chat-history-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em; /* Larger font size for emphasis */
+    font-weight: bold; /* Bold font for better visibility */
+    letter-spacing: 1px; /* Adds space between letters */
+    text-transform: uppercase; /* Makes text uppercase */
+    position: relative; /* Allows for absolute positioning of pseudo-elements */
+}
+
+.chat-history-title:after {
+    content: ""; /* Creates a pseudo-element */
+    display: block; /* Allows width and height to apply */
+    width: 50%; /* Width of the line */
+    height: 2px; /* Thickness of the line */
+    background: linear-gradient(to right, #4caf50, #81c784); /* Gradient effect */
+    margin: 10px auto 0; /* Centering and spacing the line */
+    border-radius: 5px; /* Rounded edges for the line */
+}
+
+.chat-history-title:hover {
+    color: #4caf50; /* Changes text color on hover */
+    transition: color 0.3s; /* Smooth transition for the color change */
+}
+
+.message-wrap {
+    padding: 0;
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the chat history */
+}
+
+.msg-wrap {
+    padding: 10px;
+}
+
+.msg-date {
+    background: none;
+    text-align: center;
+    color: #aaa;
+    margin: 10px 0; /* Adds some spacing around the date */
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px; /* Adds spacing between messages */
+}
+
+.media-object {
+    margin-right: 10px; /* Space between image and text */
+}
+
+.time {
+    color: #bfbfbf;
+    font-size: 0.9em;
+}
+
+.media-heading {
+    color: #003bb3;
+    font-weight: 700;
+}
+
+.upload-container {
+    max-width: 400px; /* Restricts maximum width for better alignment */
+    margin: 20px auto; /* Centers the upload section */
+    text-align: center; /* Centers text within the container */
+}
+
+.upload-title {
+    font-size: 1.5em; /* Increases font size for the title */
+    color: #333; /* Darker color for better readability */
+    margin-top: 10px; /* Space above the title */
+}
+
+.text-primary {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.text-muted {
+    color: #555; /* Updated muted text color for better contrast */
+    margin-top: 5px; /* Space above the muted text */
+}
+
+
+
+
+.card {
+    width: 350px;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.image img {
+    transition: all 0.5s
+}
+
+.card:hover .image img {
+    transform: scale(1.5)
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}
+
+body {
+    margin-top: 20px;
+}
+
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f5ff;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+
+.faq-accordian .card .card-header h6.collapsed span {
+    transform: rotate(-180deg);
+}
+
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem; /* Reduced padding for better mobile responsiveness */
+}
+
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .faq-accordian .card .card-body {
+        padding: 1rem; /* Responsive padding for smaller screens */
+    }
+
+    .support-button p {
+        font-size: 14px;
+    }
+
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button {
+    text-align: center;
+}
+
+.support-button i {
+    color: #3f43fd;
+    font-size: 1.25rem;
+}
